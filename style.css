@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background: #ffffff;
+    color: #333;
+    padding: 1.5rem 0;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: #dc3545;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+/* Dashboard & Navigation */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+div > h3 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+div > ul {
+    list-style: none;
+    padding: 0;
+}
+div > ul > li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+div > ul > li > a {
+    font-weight: 500;
+}
+
+/* Table Styles from before, can be kept or tweaked */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.styled-table thead tr {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #fff;
+}
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa;
+}
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #007bff;
+}
+.action-links a {
+    color: #007bff;
+    margin-right: 10px;
+} 
